@@ -1,0 +1,19 @@
+SmartHire-AI/
+├── .github/workflows/deploy.yml    ← CI/CD pipeline
+├── backend/
+│   ├── app.py                      ← Flask API (NLP engine)
+│   ├── requirements.txt            ← Python dependencies
+│   └── Dockerfile                  ← Multi-stage production image
+├── frontend/
+│   ├── public/favicon.svg
+│   ├── src/
+│   │   ├── App.jsx                 ← Complete drag-and-drop UI
+│   │   ├── main.jsx
+│   │   └── index.css               ← Glassmorphism + animations
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   └── postcss.config.js
+├── .gitignore
+└── README.md                       ← Academic B.Tech report-ready README
