@@ -3,7 +3,7 @@ import { useDropzone } from 'react-dropzone'
 import axios from 'axios'
 
 // ─── Constants ────────────────────────────────────────────────────────────────
-const API_URL = '/api/screen'
+const API_URL = import.meta.env.VITE_API_URL || '/api/screen'
 const MAX_FILES = 20
 const MAX_FILE_SIZE_MB = 10
 
